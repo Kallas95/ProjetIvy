@@ -99,6 +99,9 @@
         <ivy:report todir="report" />
     </target>
 
+    <!-- ================================= 
+          target: run              
+         ================================= -->
     <target name="run" depends="install-ivy, go" description="--> run the project">
     	<echo>
 We are now ready to execute our simple program with its dependency on commons-lang.
